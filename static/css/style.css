@@ -1,0 +1,129 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700';
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #31373e;
+}
+
+.wrap {
+  margin: auto;
+  margin-top: 200px;
+  text-align: center;
+}
+
+.button-start {
+  display: inline-block;
+  margin: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #1d98d5;
+  background: #31373e;
+  padding: 15px 25px;
+  border: 5px solid #1d98d5;
+  border-radius: 125px;
+  box-shadow: 0px 7px 7px -5px rgba(0, 0, 0, 0.5);
+}
+.button-start:hover {
+  border-color: #2aa5e2;
+  color: #2aa5e2;
+  background: #383f47;
+}
+.button-start:active {
+  box-shadow: 0px 7px 2px -5px rgba(0, 0, 0, 0.3);
+  transform: translateY(1px) scale(1.01);
+}
+
+.button-second {
+  display: inline-block;
+  margin: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: white;
+  background: #31373e;
+  padding: 15px 25px;
+  border: 2px solid white;
+  border-radius: 125px;
+  box-shadow: 0px 7px 7px -5px rgba(0, 0, 0, 0.5);
+  margin: 25px;
+  font-weight: 300;
+  font-size: 36px;
+  padding: 25px 40px;
+}
+.button-second:hover {
+  border-color: white;
+  color: white;
+  background: #383f47;
+}
+.button-second:active {
+  box-shadow: 0px 7px 2px -5px rgba(0, 0, 0, 0.3);
+  transform: translateY(1px) scale(1.01);
+}
+
+.button-last {
+  display: inline-block;
+  margin: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #31373e;
+  background: #fbb31b;
+  padding: 15px 25px;
+  border: 2px solid #31373e;
+  border-radius: 125px;
+  box-shadow: 0px 7px 7px -5px rgba(0, 0, 0, 0.5);
+  margin: 7px;
+  font-weight: 400;
+  font-size: 12px;
+  padding: 5px 15px;
+}
+.button-last:hover {
+  border-color: #3c444c;
+  color: #3c444c;
+  background: #fbb82a;
+}
+.button-last:active {
+  box-shadow: 0px 7px 2px -5px rgba(0, 0, 0, 0.3);
+  transform: translateY(1px) scale(1.01);
+}
+
+
+/* THINGS FOR THE MOBIL SHIT */
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+.Ligado{
+  background-color: green;
+
+}
+
+.Desligado{
+  background-color: Red;
+
+}

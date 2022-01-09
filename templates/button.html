@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<body>
+
+    <form action="/switch" method="post">
+
+        <div class="container">
+
+                {% if veri == True %}
+                    <button type="submit" class="button-second Ligado">caldeira {{msg}}</button>
+                {% endif %}
+                {% if veri != True %}
+                    <button type="submit" class="button-second Desligado">caldeira {{msg}}</button>
+                {% endif %}
+            
+        </div>
+
+    </form>
+
+</body>
+
+</html>
