@@ -1,10 +1,12 @@
 @import 'https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700';
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rancho&display=swap");
 * {
   box-sizing: border-box;
 }
 
 body {
-  background: #31373e;
+  background: #1f48b7;
 }
 
 .wrap {
@@ -126,4 +128,15 @@ body {
 .Desligado{
   background-color: Red;
 
+}
+h1 {
+  color: #f2f2f2;
+  position: relative;
+  font-family: "Avenir Next", sans-serif;
+  font-weight: 900;
+  font-size: 64px;
+  text-transform: uppercase;
+  font-style: italic;
+  letter-spacing: 0.05em;
+  display: inline-block;
 }

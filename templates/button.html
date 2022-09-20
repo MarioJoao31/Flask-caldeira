@@ -24,12 +24,13 @@
 
     </form>
 
-    <div>
+    <div class="binbang">
 
 
-        <h1>last input:</h1>
-        {% for value,date in zip(lista,datelist) %}
-            <h1>{{ value,date }}</h1> 
+        <h1 class="binbang">Ultima ação:</h1>
+        {% for value in zipped %}
+            <h1 class="binbang">{{ value[0] }} </h1> 
+
         {% endfor %}
     </div>
     
